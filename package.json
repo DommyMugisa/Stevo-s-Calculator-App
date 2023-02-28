@@ -1,0 +1,25 @@
+{
+  "name": "stevo-s-calculator-app",
+  "version": "1.0.0",
+  "description": "A CI-CD project",
+  "main": "calc.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha 'tests/test.js'",
+    "lint": "eslint"
+  },
+  "keywords": [
+    "continuous-integration",
+    "continuous-deployment"
+  ],
+  "author": "Group One = Wil M, Dominic M, Richard S, Gerald N, Alinda B.",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "install": "^0.13.0",
+    "mocha": "^10.2.0"
+  }
+}
