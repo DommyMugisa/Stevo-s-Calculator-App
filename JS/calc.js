@@ -2,7 +2,8 @@ function addNumbers() {
   // Get the values of the input elements
   const num1 = parseInt(document.getElementById('num1').value, 10);
   const num2 = parseInt(document.getElementById('num2', 10).value, 10);
-
+  // add event listener
+  
   // Add the two numbers together
   const sum = num1 + num2;
 
