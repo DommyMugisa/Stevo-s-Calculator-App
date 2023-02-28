@@ -2,7 +2,8 @@
 import { assert } from 'chai';
 import {
   addNumbers, subtractNumbers, multiplyNumbers, divideNumbers,
-} from '../calc.js';
+// eslint-disable-next-line import/extensions
+} from '../JS/calc.js';
 
 describe('Test our add function', () => {
   it('fails if result does not equal sum of num1 and num2 inputs', () => {
